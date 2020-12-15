@@ -1,0 +1,18 @@
+<!-- jobs_board_main/templates/subscribed.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jobs Board - Subscribed</title>
+</head>
+
+<body>
+    <div>
+        <h3>Subscription confirmed!</h3>
+        <p>
+            Dear {{ payload.email }}, {{ payload.msg }} <strong> {{ payload.job.title }}</strong>
+        </p>
+    </div>
+</body>
+
+</html>
